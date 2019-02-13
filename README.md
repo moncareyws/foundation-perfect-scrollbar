@@ -24,9 +24,8 @@ var gulp = require('gulp');
 var $    = require('gulp-load-plugins')();
 
 var sassPaths = [
-    'node_modules/normalize.scss/sass',
     'node_modules/foundation-sites/scss',
-    'node_modules/foundation-perfect-scrollbar/src/scss/plugin',
+    'node_modules/@moncareyws/foundation-perfect-scrollbar/src/scss/plugin',
     'node_modules/motion-ui/src'
 ];
 
