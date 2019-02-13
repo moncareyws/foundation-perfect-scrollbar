@@ -1,31 +1,31 @@
-.ps-theme-foundation {
+.ps--theme_foundation {
   -ms-touch-action: auto;
   touch-action: auto;
   overflow: hidden !important;
   -ms-overflow-style: none; }
   @supports (-ms-overflow-style: none) {
-    .ps-theme-foundation {
+    .ps--theme_foundation {
       overflow: auto !important; } }
   @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .ps-theme-foundation {
+    .ps--theme_foundation {
       overflow: auto !important; } }
-  .ps-theme-foundation.ps--active-x > .ps__scrollbar-x-rail,
-  .ps-theme-foundation.ps--active-y > .ps__scrollbar-y-rail {
+  .ps--theme_foundation.ps--active-x > .ps__scrollbar-x-rail,
+  .ps--theme_foundation.ps--active-y > .ps__scrollbar-y-rail {
     display: block;
     background-color: transparent; }
-  .ps-theme-foundation.ps--in-scrolling.ps--x > .ps__scrollbar-x-rail {
+  .ps--theme_foundation.ps--in-scrolling.ps--x > .ps__scrollbar-x-rail {
     background-color: #eee;
     opacity: 0.9; }
-    .ps-theme-foundation.ps--in-scrolling.ps--x > .ps__scrollbar-x-rail > .ps__scrollbar-x {
+    .ps--theme_foundation.ps--in-scrolling.ps--x > .ps__scrollbar-x-rail > .ps__scrollbar-x {
       background-color: #999;
       height: 11px; }
-  .ps-theme-foundation.ps--in-scrolling.ps--y > .ps__scrollbar-y-rail {
+  .ps--theme_foundation.ps--in-scrolling.ps--y > .ps__scrollbar-y-rail {
     background-color: #eee;
     opacity: 0.9; }
-    .ps-theme-foundation.ps--in-scrolling.ps--y > .ps__scrollbar-y-rail > .ps__scrollbar-y {
+    .ps--theme_foundation.ps--in-scrolling.ps--y > .ps__scrollbar-y-rail > .ps__scrollbar-y {
       background-color: #999;
       width: 11px; }
-  .ps-theme-foundation > .ps__scrollbar-x-rail {
+  .ps--theme_foundation > .ps__scrollbar-x-rail {
     display: none;
     position: absolute;
     /* please don't change 'position' */
@@ -35,7 +35,7 @@
     bottom: 0px;
     /* there must be 'bottom' for ps__scrollbar-x-rail */
     height: 15px; }
-    .ps-theme-foundation > .ps__scrollbar-x-rail > .ps__scrollbar-x {
+    .ps--theme_foundation > .ps__scrollbar-x-rail > .ps__scrollbar-x {
       position: absolute;
       /* please don't change 'position' */
       background-color: #aaa;
@@ -45,9 +45,9 @@
       bottom: 2px;
       /* there must be 'bottom' for ps__scrollbar-x */
       height: 6px; }
-    .ps-theme-foundation > .ps__scrollbar-x-rail:hover > .ps__scrollbar-x, .ps-theme-foundation > .ps__scrollbar-x-rail:active > .ps__scrollbar-x {
+    .ps--theme_foundation > .ps__scrollbar-x-rail:hover > .ps__scrollbar-x, .ps--theme_foundation > .ps__scrollbar-x-rail:active > .ps__scrollbar-x {
       height: 11px; }
-  .ps-theme-foundation > .ps__scrollbar-y-rail {
+  .ps--theme_foundation > .ps__scrollbar-y-rail {
     display: none;
     position: absolute;
     /* please don't change 'position' */
@@ -57,7 +57,7 @@
     right: 0;
     /* there must be 'right' for ps__scrollbar-y-rail */
     width: 15px; }
-    .ps-theme-foundation > .ps__scrollbar-y-rail > .ps__scrollbar-y {
+    .ps--theme_foundation > .ps__scrollbar-y-rail > .ps__scrollbar-y {
       position: absolute;
       /* please don't change 'position' */
       background-color: #aaa;
@@ -67,30 +67,30 @@
       right: 2px;
       /* there must be 'right' for ps__scrollbar-y */
       width: 6px; }
-    .ps-theme-foundation > .ps__scrollbar-y-rail:hover > .ps__scrollbar-y, .ps-theme-foundation > .ps__scrollbar-y-rail:active > .ps__scrollbar-y {
+    .ps--theme_foundation > .ps__scrollbar-y-rail:hover > .ps__scrollbar-y, .ps--theme_foundation > .ps__scrollbar-y-rail:active > .ps__scrollbar-y {
       width: 11px; }
-  .ps-theme-foundation:hover.ps--in-scrolling.ps--x > .ps__scrollbar-x-rail {
+  .ps--theme_foundation:hover.ps--in-scrolling.ps--x > .ps__scrollbar-x-rail {
     background-color: #eee;
     opacity: 0.9; }
-    .ps-theme-foundation:hover.ps--in-scrolling.ps--x > .ps__scrollbar-x-rail > .ps__scrollbar-x {
+    .ps--theme_foundation:hover.ps--in-scrolling.ps--x > .ps__scrollbar-x-rail > .ps__scrollbar-x {
       background-color: #999;
       height: 11px; }
-  .ps-theme-foundation:hover.ps--in-scrolling.ps--y > .ps__scrollbar-y-rail {
+  .ps--theme_foundation:hover.ps--in-scrolling.ps--y > .ps__scrollbar-y-rail {
     background-color: #eee;
     opacity: 0.9; }
-    .ps-theme-foundation:hover.ps--in-scrolling.ps--y > .ps__scrollbar-y-rail > .ps__scrollbar-y {
+    .ps--theme_foundation:hover.ps--in-scrolling.ps--y > .ps__scrollbar-y-rail > .ps__scrollbar-y {
       background-color: #999;
       width: 11px; }
-  .ps-theme-foundation:hover > .ps__scrollbar-x-rail,
-  .ps-theme-foundation:hover > .ps__scrollbar-y-rail {
+  .ps--theme_foundation:hover > .ps__scrollbar-x-rail,
+  .ps--theme_foundation:hover > .ps__scrollbar-y-rail {
     opacity: 0.6; }
-  .ps-theme-foundation:hover > .ps__scrollbar-x-rail:hover {
+  .ps--theme_foundation:hover > .ps__scrollbar-x-rail:hover {
     background-color: #eee;
     opacity: 0.9; }
-    .ps-theme-foundation:hover > .ps__scrollbar-x-rail:hover > .ps__scrollbar-x {
+    .ps--theme_foundation:hover > .ps__scrollbar-x-rail:hover > .ps__scrollbar-x {
       background-color: #999; }
-  .ps-theme-foundation:hover > .ps__scrollbar-y-rail:hover {
+  .ps--theme_foundation:hover > .ps__scrollbar-y-rail:hover {
     background-color: #eee;
     opacity: 0.9; }
-    .ps-theme-foundation:hover > .ps__scrollbar-y-rail:hover > .ps__scrollbar-y {
+    .ps--theme_foundation:hover > .ps__scrollbar-y-rail:hover > .ps__scrollbar-y {
       background-color: #999; }

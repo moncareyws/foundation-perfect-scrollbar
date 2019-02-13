@@ -176,7 +176,7 @@ $ps-theme-foundation: (
 
 @mixin foundation-perfect-scrollbar {
   // Foundation theme
-  .ps-theme-foundation {
+  .ps--theme_foundation {
     @include ps-container($ps-theme-foundation);
   }
 }
