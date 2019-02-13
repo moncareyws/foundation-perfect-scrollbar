@@ -8,12 +8,12 @@ npm install --save @moncareyws/foundation-perfect-scrollbar
 ```
 Add all nessesary files to your html. This plugin only works with foundation and requires perfect-scrollbar.
 ```html
-<link rel="stylesheet" type="text/css" href="node_modules/foundation-sites/dist/css/foundation.min.css">
-<link rel="stylesheet" type="text/css" href="node_modules/foundation-perfect-scrollbar/dist/css/foundation-perfect-scrollbar.min.css">
+<link rel="stylesheet" type="text/css" href="node_modules/foundation-sites/dist/css/foundation.css">
+<link rel="stylesheet" type="text/css" href="node_modules/foundation-perfect-scrollbar/dist/css/foundation-perfect-scrollbar.css">
 ...
 <script src="node_modules/jquery/dist/jquery.js"></script>
 <script src="node_modules/what-input/dist/what-input.js"></script>
-<script src="node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script>
+<script src="node_modules/perfect-scrollbar/dist/js/perfect-scrollbar.jquery.js"></script>
 <script src="node_modules/foundation-sites/dist/js/foundation.min.js"></script>
 <script src="node_modules/foundation-perfect-scrollbar/dist/js/foundation.perfectScrollbar.min.js"></script>
 ```

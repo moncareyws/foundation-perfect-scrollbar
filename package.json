@@ -1,6 +1,6 @@
 {
   "name": "@moncareyws/foundation-perfect-scrollbar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Perfect Scrollbar as a Foundation plugin",
   "main": "src/js/foundation.perfectScrollbar.js",
   "scripts": {
@@ -36,7 +36,7 @@
   "dependencies": {
     "foundation-sites": "^6.5.3",
     "jquery": "^3.3.1",
-    "perfect-scrollbar": "^1.4.0",
+    "perfect-scrollbar": "0.8.1",
     "what-input": "^5.1.3"
   }
 }
