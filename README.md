@@ -1,26 +1,21 @@
 # foundation-perfect-scrollbar
 **[Perfect Scrollbar](https://github.com/noraesae/perfect-scrollbar) plugin for Foundation 6**
 
-[![Travis](https://img.shields.io/travis/samuelmc/foundation-perfect-scrollbar.svg)](https://travis-ci.org/samuelmc/foundation-perfect-scrollbar)
-
 ## Installation
 
-**With bower:**
-
-[![Bower](https://img.shields.io/bower/v/foundation-perfect-scrollbar.svg)]()
-
 ```shell
-bower install foundation-perfect-scrollbar
+npm install --save @moncareyws/foundation-perfect-scrollbar
 ```
 Add all nessesary files to your html. This plugin only works with foundation and requires perfect-scrollbar.
 ```html
-<link rel="stylesheet" type="text/css" href="bower_components/foundation-sites/dist/css/foundation.min.css">
-<link rel="stylesheet" type="text/css" href="bower_components/foundation-perfect-scrollbar/dist/css/foundation-perfect-scrollbar.min.css">
+<link rel="stylesheet" type="text/css" href="node_modules/foundation-sites/dist/css/foundation.min.css">
+<link rel="stylesheet" type="text/css" href="node_modules/foundation-perfect-scrollbar/dist/css/foundation-perfect-scrollbar.min.css">
 ...
-<script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/what-input/dist/what-input.js"></script><script src="bower_components/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js"></script>
-    <script src="bower_components/foundation-sites/dist/js/foundation.min.js"></script>
-    <script src="bower_components/foundation-perfect-scrollbar/dist/js/foundation.perfectScrollbar.min.js"></script>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/what-input/dist/what-input.js"></script>
+<script src="node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script>
+<script src="node_modules/foundation-sites/dist/js/foundation.min.js"></script>
+<script src="node_modules/foundation-perfect-scrollbar/dist/js/foundation.perfectScrollbar.min.js"></script>
 ```
 
 If you are using foundation's scss with gulp, the best way add the styles is by adding it to the sass paths in your gulpfile.
@@ -29,10 +24,10 @@ var gulp = require('gulp');
 var $    = require('gulp-load-plugins')();
 
 var sassPaths = [
-    'bower_components/normalize.scss/sass',
-    'bower_components/foundation-sites/scss',
-    'bower_components/foundation-perfect-scrollbar/src/scss/plugin',
-    'bower_components/motion-ui/src'
+    'node_modules/normalize.scss/sass',
+    'node_modules/foundation-sites/scss',
+    'node_modules/foundation-perfect-scrollbar/src/scss/plugin',
+    'node_modules/motion-ui/src'
 ];
 
 gulp.task('sass', function() {
@@ -106,5 +101,3 @@ $(document).foundation();
 
 ## Licence
 [![MIT Licence](https://img.shields.io/badge/Licence-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php)
-
-&copy; Samuel Moncarey 2016
